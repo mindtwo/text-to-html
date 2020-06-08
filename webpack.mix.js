@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +12,4 @@ let mix = require('laravel-mix');
  */
 mix
    .js('resources/js/app.js', 'docs/js')
-   .fastSass('resources/sass/app.scss', 'docs/css');
+   .sass('resources/sass/app.scss', 'docs/css');

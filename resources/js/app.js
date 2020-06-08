@@ -1,9 +1,9 @@
-window._ = require('lodash');
-window.Vue = require('vue');
+import Vue from 'vue';
+import TextToHTML from './components/TextToHTML.vue';
 
 const app = new Vue({
     el: '#app',
     components: {
-        'text_to_html': require('./components/TextToHTML.vue'),
+        'text-to-html': TextToHTML
     }
 });
